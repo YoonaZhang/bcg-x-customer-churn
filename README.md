@@ -1,28 +1,20 @@
 # BCG X Customer Churn Analysis
 
-Personal working materials for the BCG X Data Science job simulation on Forage, focused on customer churn and pricing data.
+Exploratory and modeling-preparation work from the BCG X Data Science job simulation on Forage.
 
-## Project scope
+## Main notebook
 
-- Explore customer and pricing data with pandas, Matplotlib and Seaborn.
-- Examine customer characteristics and pricing changes in relation to churn.
-- Develop features and a classification workflow for churn prediction.
+[Open the consolidated customer churn notebook](notebooks/customer_churn_analysis.ipynb)
 
-## Files
+The notebook follows a single sequence: environment setup, data understanding, exploratory analysis, pricing-feature engineering, model-ready data preparation, a train/test split and a summary of the modeling stage.
 
-| File | Contents |
-| --- | --- |
-| [Exploratory analysis](notebooks/01_exploratory_analysis.ipynb) | Data inspection and exploratory visualizations |
-| [Feature engineering](notebooks/02_feature_engineering.ipynb) | Feature-engineering working notebook |
-| [Modeling and evaluation](notebooks/03_modeling_evaluation.ipynb) | Modeling working notebook |
-| [Personal notes](docs/project-notes.md) | Problem framing and analysis notes |
+The supplied saved files contain exploratory work and model preparation, but the Random Forest training and evaluation cells were unfinished. The consolidated notebook preserves that scope and does not report model scores. The model-ready dataset and feature-engineering example are identified separately.
 
-## Current version
+## Supporting material
 
-This repository contains an initial collection of working files. The modeling notebook currently contains unfinished training, prediction and evaluation cells; it is not a finished, reproducible modeling submission. The feature-engineering notebook also retains supplied example code. Completed versions can replace these files at the same paths.
+- [Personal project notes](docs/project-notes.md)
+- [Data availability](data/README.md)
 
-## Attribution and data
+## Attribution
 
-This is an educational job simulation, not employment at BCG. Task instructions and starter scaffolding originate from BCG X / Forage; personal additions and working notes are presented in that context. Provided model answers and source datasets are not redistributed here.
-
-Notebook copies exclude saved data previews and outputs. Analysis logic has not been rewritten for this initial upload.
+This is an educational simulation, not employment at BCG. Task scaffolding and the supplied feature-engineering example originate from BCG X / Forage. Source datasets and provided model answers are not redistributed.
